@@ -1,0 +1,24 @@
+*{
+    font-size: small;
+}
+.container-fluid{
+    margin-top: 100px;
+}
+.jumbotron{
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+::ng-deep ngb-modal-backdrop {
+    z-index: -1 !important;
+}
+
+
+
+.card{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(232, 231, 230);
+}
